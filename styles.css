@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 375px;
+    height: 66px;
+    background: #1B83E2;
+}
+
+main {
+    height: 100vh;
+    width: 375px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    background: rgb(243, 243, 243);
+}
+
+.converter {
+    padding: 24px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 22px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+select {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border: 1px solid #BBBBBB;
+    height: 48px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding-left: 16px;
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+input {
+        background-color: white;
+        border-radius: 4px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+        border: 1px solid #BBBBBB;
+        height: 48px;
+        display: block;
+        width: 100%;
+        outline: none;
+        padding-left: 16px;
+        margin-top: 6px;
+        margin-bottom: 24px;
+    }
+
+input::placeholder {
+    top: 316px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #555555;
+}
+
+option {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #555555;
+}
+
+button {
+    background-color: #1B83E2;
+    height: 48px;
+    width: 327px;
+    left: 24px;
+    top: 374px;
+    border: none;
+    border-radius: 25px;
+    Font-size: 20px;
+    line-height: 18px;
+    line-height: 96%;
+    color: #F4F4F4;
+    cursor: pointer;
+    margin-bottom: 48px;
+}
+
+button:hover {
+    background-color: #4fa5f7;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+.resultConvert {
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+}
+
+.currency {
+    text-align: center;
+    padding: 10px;
+}
+
+.currencyName {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #777777;
+}
+
+.currencyValue {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    color: #1B83E2;
+}
+
+.arrowImage {
+    width: 35px;
+    height: 45px;
+    margin: 15px auto;
+    display: block;
+}
