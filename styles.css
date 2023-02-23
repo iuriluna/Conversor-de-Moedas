@@ -8,13 +8,21 @@ header {
     width: 375px;
     height: 66px;
     background: #1B83E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 main {
     height: 100vh;
     width: 375px;
-    margin: 0 auto;
-    margin-top: 100px;
     border-radius: 6px;
     background: rgb(243, 243, 243);
 }
@@ -28,8 +36,7 @@ h1 {
     font-size: 24px;
     line-height: 18px;
     color: #F4F4F4;
-    text-align: center;
-    padding-top: 22px;
+    
 }
 
 label {
@@ -113,10 +120,16 @@ button:active {
 .resultConvert {
     border: 1px solid #1B83E2;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .currency {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
 }
 
@@ -137,7 +150,5 @@ button:active {
 
 .arrowImage {
     width: 35px;
-    height: 45px;
-    margin: 15px auto;
-    display: block;
+    height: 45px; 
 }
